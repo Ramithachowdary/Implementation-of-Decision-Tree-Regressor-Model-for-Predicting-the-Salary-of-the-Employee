@@ -51,7 +51,43 @@ dt.predict([[5,6]])
 ```
 
 ## Output:
-![Decision Tree Regressor Model for Predicting the Salary of the Employee](sam.png)
+
+![Screenshot 2024-11-28 205254](https://github.com/user-attachments/assets/5e4dbbe0-f8bf-4d64-9aec-59866bdb6769)
+```
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10 entries, 0 to 9
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype 
+---  ------    --------------  ----- 
+ 0   Position  10 non-null     object
+ 1   Level     10 non-null     int64 
+ 2   Salary    10 non-null     int64 
+dtypes: int64(2), object(1)
+memory usage: 372.0+ bytes
+```
+
+```
+Position    0
+Level       0
+Salary      0
+dtype: int64
+```
+![Screenshot 2024-11-28 205416](https://github.com/user-attachments/assets/b110f165-4d93-44cd-b2f4-d0779fe7adbb)
+```
+0     45000
+1     50000
+2     60000
+3     80000
+4    110000
+Name: Salary, dtype: int64
+```
+array([80000., 45000.])
+
+462500000.0
+
+0.48611111111111116
+
+![Screenshot 2024-11-28 205622](https://github.com/user-attachments/assets/dc4e2d85-8008-4597-85ba-a11678d7095f)
 
 
 ## Result:
